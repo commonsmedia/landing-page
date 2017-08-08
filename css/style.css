@@ -1,5 +1,5 @@
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic");
+@import url("https://fonts.googleapis.com/css?family=Nunito");
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -249,24 +249,6 @@ th {
   .table-bordered th,
   .table-bordered td {
     border: 1px solid #ddd !important; } }
-@font-face {
-  font-family: 'Museo';
-  src: url("fonts/Museo-300.eot");
-  src: url("fonts/Museo-300.eot?#iefix") format("embedded-opentype"), url("fonts/Museo-300.woff") format("woff"), url("fonts/Museo-300.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'Museo';
-  src: url("fonts/Museo-500.eot");
-  src: url("fonts/Museo-500.eot?#iefix") format("embedded-opentype"), url("fonts/Museo-500.woff") format("woff"), url("fonts/Museo-500.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal; }
-@font-face {
-  font-family: 'Museo';
-  src: url("fonts/Museo-700.eot");
-  src: url("fonts/Museo-700.eot?#iefix") format("embedded-opentype"), url("fonts/Museo-700.woff") format("woff"), url("fonts/Museo-700.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal; }
 @font-face {
   font-family: "icons";
   src: url("../../futurism/fonts/icons-a50a33c4b4919597ab46e94728a7a175.eot");
@@ -542,7 +524,7 @@ html {
       font-size: 80%; } }
 
 body {
-  font-family: "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Avenir", "Nunito", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.428571429;
   color: #404448;
@@ -826,7 +808,7 @@ ol {
     font-size: 14px !important;
     line-height: 100%;
     margin: 5px 0 15px;
-    font-family: "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    font-family: "Avenir", "Nunito", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 .list-lg li {
   padding-bottom: 15px; }
