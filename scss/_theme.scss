@@ -9,28 +9,28 @@ body{
 h1{
 	text-align: center;
 	line-height: 100%;
-	padding: 10px;
+	padding: 20px;
 	margin: 0;
 
 	img{
-		width: 140px;
+		width: 200px;
 
 		@media (max-width: $screen-xs-max) {
-			width: 110px;
+			width: 150px;
 		}
 	}
 }
 
 .hero{
 	position: relative;
-	height: calc(100vh - 65px);
+	height: calc(100vh - 84px);
 
 	@media (max-width: $screen-xs-max) {
 		text-align: center;
 	}
 
 	> div{
-		height: calc(100vh - 65px);
+		height: calc(100vh - 84px);
 		width: 800px;
 		max-width: 100%;
 		position: relative;
@@ -48,7 +48,7 @@ h1{
 			right: 0;
 			max-width: 800px;
 			padding-right: 200px;
-			transform:translate(0%, -54%);
+			transform:translate(0%, -55%);
 
 			@media (max-width: $screen-xs-max) {
 				padding: 0;
