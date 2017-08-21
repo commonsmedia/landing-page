@@ -124,6 +124,22 @@ h1{
 		display: inline-block;
 		vertical-align: top;
 
+		.result{
+			position: absolute;
+			bottom: -10px;
+			left: 0;
+			font-size: 13px;
+			width: 100%;
+			text-align: center;
+			color: white;
+			transform: translate(0,100%);
+			color: $brand-success;
+
+			&.error{
+				color: $brand-warning;
+			}
+		}
+
 		.btn{
 			position: relative;
 			z-index: 6;
@@ -161,13 +177,17 @@ h1{
 			}
 		}
 
-		&.submit{
 
-			.send{
+		&.submitting{
+			.loading{
 				display: block;
-				left: auto;
-				width: 20px;
+				left: 50%;
+				width: 40px;
+				transform: translate(-50%, -50%);
 			}
+		}
+
+		&.submit, &.submitting{
 
 			.btn{
 				width: 50px;
@@ -179,6 +199,14 @@ h1{
 				}
 			}
 
+		}
+
+		&.submit{
+			.send{
+				display: block;
+				left: auto;
+				width: 20px;
+			}
 		}
 
 		&.success{

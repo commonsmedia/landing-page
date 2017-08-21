@@ -4110,6 +4110,18 @@ h1 {
     position: relative;
     display: inline-block;
     vertical-align: top; }
+    .hero .subscribe-form .result {
+      position: absolute;
+      bottom: -10px;
+      left: 0;
+      font-size: 13px;
+      width: 100%;
+      text-align: center;
+      color: white;
+      transform: translate(0, 100%);
+      color: #00D7AA; }
+      .hero .subscribe-form .result.error {
+        color: #f5bd47; }
     .hero .subscribe-form .btn {
       position: relative;
       z-index: 6;
@@ -4133,16 +4145,21 @@ h1 {
         outline: none; }
     .hero .subscribe-form.subscribe .email {
       display: block; }
+    .hero .subscribe-form.submitting .loading {
+      display: block;
+      left: 50%;
+      width: 40px;
+      transform: translate(-50%, -50%); }
+    .hero .subscribe-form.submit .btn, .hero .subscribe-form.submitting .btn {
+      width: 50px;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0; }
+      .hero .subscribe-form.submit .btn span, .hero .subscribe-form.submitting .btn span {
+        display: none; }
     .hero .subscribe-form.submit .send {
       display: block;
       left: auto;
       width: 20px; }
-    .hero .subscribe-form.submit .btn {
-      width: 50px;
-      border-top-left-radius: 0;
-      border-bottom-left-radius: 0; }
-      .hero .subscribe-form.submit .btn span {
-        display: none; }
     .hero .subscribe-form.success .btn {
       background: #00D7AA; }
     .hero .subscribe-form.success .checkmark {
