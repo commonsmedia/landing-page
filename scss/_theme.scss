@@ -146,6 +146,7 @@ h1{
 			width: 100%;
 			float: right;
 			transition: all .5s ease;
+			outline: none;
 
 			img{
 				display: none;
@@ -155,6 +156,11 @@ h1{
 		input{
 			font-size: 14px;
 			color: $gray-dark;
+			outline: none;
+
+			&:focus{
+				outline: none;
+			}
 		}
 
 		input{

@@ -7,7 +7,7 @@ $(function(){
 		if($(this).parent().hasClass('subscribe')){
 
 			$(this).closest('.subscribe-form').removeClass('subscribe').addClass('submit');
-			$(this).siblings('input').focus();
+			$(this).find('input').focus();
 
 		}else if($(this).parent().hasClass('submit')){
 
@@ -51,7 +51,7 @@ $(function(){
 
 				$.ajax({
 					type: "GET",
-					url: "http://futurism.us8.list-manage.com/subscribe/post-json?u=aa1f459b1dc368b292f0587f2&amp;id=8e44b73d9e",
+					url: "https://futurism.us8.list-manage.com/subscribe/post-json?u=aa1f459b1dc368b292f0587f2&amp;id=8e44b73d9e",
 					data: $form.serialize(),
 					cache: false,
 					dataType: "jsonp",
