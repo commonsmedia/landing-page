@@ -7,30 +7,34 @@ body{
 }
 
 h1{
-	text-align: center;
 	line-height: 100%;
-	padding: 20px;
 	margin: 0;
+	position: relative;
+	z-index: 10;
 
 	img{
-		width: 200px;
+		width: 300px;
 
 		@media (max-width: $screen-xs-max) {
-			width: 150px;
+			width: 250px;
+		}
+
+		@media (max-width: $screen-xs-min) {
+			width: 200px;
 		}
 	}
 }
 
 .hero{
 	position: relative;
-	height: calc(100vh - 84px);
+	height: 100vh;
 
 	@media (max-width: $screen-xs-max) {
 		text-align: center;
 	}
 
 	> div{
-		height: calc(100vh - 84px);
+		height: 100vh;
 		width: 800px;
 		max-width: 100%;
 		position: relative;
@@ -237,7 +241,7 @@ h1{
 			width: 25px;
 		}
 
-		&.slack img{
+		&.telegram img{
 			width: 20px;
 		}
 
