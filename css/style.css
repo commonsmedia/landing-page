@@ -4032,12 +4032,12 @@ h1 {
 
 .hero {
   position: relative;
-  height: 100vh; }
+  height: calc(100vh - 4px); }
   @media (max-width: 767px) {
     .hero {
       text-align: center; } }
   .hero > div {
-    height: 100vh;
+    height: calc(100vh - 4px);
     width: 800px;
     max-width: 100%;
     position: relative;
